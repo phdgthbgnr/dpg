@@ -1,0 +1,64 @@
+body.login{
+    background-color: #fff;
+}
+
+body.login div#login form#loginform {
+    border-radius: 8px;
+
+}
+
+body.login div#login h1{
+    display: block;
+    width: 320px;
+    height: 300px;
+    padding:0;
+    margin: 0 auto 10px;
+}
+
+body.login div#login h1 a {
+    background-image: url('images/dpg-logo-login.png') ;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 275px 289px;
+    width: 330px;
+    height: 289px;
+    display: block;
+    padding:0;
+    margin: 0;
+}
+
+body.login div#login form#loginform {
+    margin: 0;
+}
+
+
+body.login div#login form#loginform p.forgetmenot input#rememberme {
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: middle;
+   
+}
+
+body.login div#login form#loginform p.submit input#wp-submit {
+    background:#fafafa;
+    -moz-box-shadow:0px 0px 1px gray, -1px -1px 1px white;
+    -webkit-box-shadow:0px 0px 1px gray, -1px -1px 2px white;
+    box-shadow:0px 0px 1px gray, -1px -1px 1px white;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color:#838383;
+    padding:7px 12px;
+    margin:2% auto 0 auto;
+}
+
+body.login div#login form#loginform p.submit input#wp-submit:hover{
+    background:#f2f2f2;
+    cursor:pointer;
+}
+
+body.login div#login p#nav a,body.login div#login p#backtoblog a {
+    color:#666 !important;
+    text-shadow: none;
+}
